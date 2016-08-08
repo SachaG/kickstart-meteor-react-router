@@ -4,6 +4,7 @@ Kickstart a project with Meteor, React and react-router fast!
 
 1. git clone https://github.com/thereactivestack/kickstart-meteor-react-router.git
 1. cd kickstart-meteor-react-router
+1. npm install
 1. meteor
 
 You can try [other kickstart projects](https://github.com/thereactivestack/kickstart) with ReactRouter, FlowRouter or Redux.
