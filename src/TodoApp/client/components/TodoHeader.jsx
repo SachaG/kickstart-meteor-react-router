@@ -1,5 +1,6 @@
 import { Component, PropTypes } from 'react';
 import { BlazeToReact } from 'meteor/thereactivestack:blazetoreact';
+import { Button, ButtonGroup, DropdownButton, MenuItem } from 'react-bootstrap';
 
 const LoginButtons = BlazeToReact('loginButtons');
 
@@ -37,6 +38,14 @@ export default class TodoHeader extends Component {
 
     return (
       <header>
+        <DropdownButton 
+        bsStyle="default" 
+        className="views btn-secondary" 
+        title="hey"
+        id="views-dropdown"
+        >
+          <p>hey</p>
+        </DropdownButton>
         <h1>
           <img src={require('TodoApp/client/img/check.png')} alt="" />
           Todo List ({this.props.incompleteCount})
